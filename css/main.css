@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: .74em Tahoma, Verdana, Sans-Serif, Arial;
+    background-color: #e8eef1;
+    color: #7f7f7f;
+    font-stretch: condensed;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+ul, ol {
+    list-style: none;
+    text-decoration: none;
+}
+
+container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    list-style-type: none;
+    list-style: none;
+    background-color: #f99140;
+    font-stretch: normal;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 69px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    z-index: 200;
+}
+
+.menu > li {
+    float: left;
+    width: 130px
+}
+
+.menu > li:last-child {
+    float: right;
+    border-right: none;
+    /*border-left: 1px solid #7f7f7f;*/
+}
+
+.menu > li > a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 26px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+}
+
+.menu > li > a.active {
+    background-color: #ea8233;
+}
+
+
+.menu > li:hover > a {
+    background: url(../images/fondo_menu_hover_130x69_sinfondo.png) no-repeat 50%;
+    color: slategray;
+    text-decoration: none;
+    transition: background 1s;
+}
+
+#logo_menu {
+    width: 258px;
+}
+
+#logo_menu:hover > img {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.menu ul {
+    display: : block;
+    position: relative;
+    background-color: #f99140;
+    min-width: 10px;
+    font-size: .7em;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu ul:last-child {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-decoration: none;
+}
+
+.menu ul li {
+    list-style: none;
+    display: none;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #f99140;
+    transition: 1s;
+}
+
+.menu ul li.last-item {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.menu li:hover ul li{
+    display: block;
+}
+
+.menu ul li:hover {
+    background-color: #ea8233;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: slategray;
+}
+
+.menu ul li.last-item:hover {
+    background-color: #ea8233;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#home-cmdb .box {
+    display: inline-block;
+    text-align: left;
+    width: 45%;
+    float: left;
+    background-color: #d4dbdd;
+    color: darkgrey;
+    height: 100px;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 8px;
+}
+
+#home-cmdb .box:last-child {
+    float: right;
+}
+#home-cmdb .box table {
+    grid-column: auto;
+    width: 100%;
+}
+
+
+section {
+    padding: 10px;
+    margin: 20px;
+}
+
+.container {
+    width: 992px%;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: #f99140;
+    border-top: 2px solid darkblue;
+    padding: 10px 20px 10px;
+    font-size: .9em;
+    top: auto;
+}
+
+/*
+footer p {
+    padding: 10px 10px 10px 3px;
+}
+*/
+
+#links {
+    float: right;
+}
+
+.imagenLogo {
+    height: 69px;
+}
+
+

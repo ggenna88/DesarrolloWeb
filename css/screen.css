@@ -1,0 +1,239 @@
+﻿/*
+	template: Lawyer&Attorney
+	author:   Luka Cvrk (www.solucija.com)
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: .74em Tahoma, Verdana, Sans-Serif, Arial;
+    background: url(../images/body.gif) repeat; color: #7f7f7f;
+}
+
+h1 {
+    font: normal 3.4em "Trebuchet MS", Helvetica, Arial;
+}
+
+h2 {
+    font: normal 1.8em "Trebuchet MS", Helvetica, Arial;
+    color: #dfdfdf;
+    margin: 0 0 15px;
+}
+
+h3 {
+    font: normal 1.4em "Trebuchet MS", Helvetica, Arial;
+    margin: 0 0 20px;
+}
+
+h4 {
+    font: normal 1.2em "Trebuchet MS", Helvetica, Arial;
+    color: #dfdfdf;
+    margin: 0 0 4px;
+}
+
+p {
+    margin: 0 0 15px;
+    line-height: 1.6em;
+}
+
+a {
+    outline: 0;
+    color: #304D6F;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+li a, img {
+    display: block;
+}
+
+img {
+    outline: 0;
+    border: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+#wrapper {
+    width: 984px;
+    margin: auto;
+}
+
+
+#logo {
+    float: left;
+    padding: 30px 15px;
+}
+
+    #logo h1 {
+        color: #fff;
+    }
+
+        #logo h1 img {
+            width: 50%;
+            right: 0%
+        }
+            #logo table h1 td a span {
+                color: #0B3861;
+            }
+#pitch {
+    clear: both;
+    height: 410px;
+    margin: inherit;
+}
+
+#menu {
+    height: 44px;
+    text-align: center;
+}
+
+	#menu li {
+        float: left;
+        font-size: 1.1em;
+        text-transform: uppercase;
+        padding: 0 1px 1px 0;
+      /*  background: black;*/
+        line-height: 42px;
+    }
+
+		#menu li a {
+            color: #888;
+            margin: 0 50px 0 0;
+            display: inline-block;
+            width: 100%;
+            position: relative;
+            cursor: pointer;
+        }
+
+		#menu li:hover a, #menu li:active a {
+                color: #fff;
+                background: black;
+            }
+
+#menu li:hover .menu-desplegable{
+    display: block;
+    width: 15%;
+}
+
+.menu-desplegable {
+    display: none;
+    position:absolute;
+    background-color: black;
+  /*  padding: 10px 5px 10px 10px;*/
+    width: auto;
+    text-align: left;
+}
+
+#menu li:hover .menu-desplegable a {
+    padding: 5px 0 5px 0;
+    text-decoration: none;
+    display: block;
+    height: 30px;
+    text-align: left;
+    border-image: url(../images/line.gif) repeat-x;
+
+}
+
+.content {
+    background: url(../images/content.gif) repeat;
+    padding: 20px;
+}
+
+.link {
+    background: #304D6F;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: .9em;
+}
+
+#main {
+    padding: 20px;
+}
+
+.col {
+    float: left;
+    width: 292px;
+    margin: 0 30px 15px 0;
+    text-align: justify-all;
+}
+
+	.col.last {
+        float: right;
+        margin-right: 0;
+    }
+
+	.col.last.b {
+        float: right;
+        margin-right: 0;
+    }
+
+.case p{
+    height: 100px;
+}
+.case img {
+    float: left;
+    clear: left;
+    margin: 0 20px 20px 0;
+    background: #121212;
+    padding: 3px;
+}
+
+.case p{
+    height: 100px;
+}
+
+.shortDesca {
+    padding: 0 0 15px 0;
+    background:  repeat-x left bottom;
+}
+
+.short {
+    padding: 0 0 15px 0;
+    background: url(../images/line.gif) repeat-x left bottom;
+    font-size: .84em;
+    margin: 0 0 3px;
+}
+
+.case a, .article a {
+    color: #ddd;
+    font-weight: bold;
+}
+
+.date {
+    font-size: .84em;
+    margin: 0 0 3px;
+}
+
+#footer {
+    clear: both;
+    background: url(../images/line.gif) repeat-x;
+    padding: 20px 20px 10px;
+    font-size: .9em;
+}
+
+	#footer a {
+        color: #ccc;
+        margin: 10px 0px 0 3px;
+        border-bottom: 1px dotted #444;
+        padding: 0 0 1px;
+    }
+
+    #footer p a{
+        margin: 10px 0 0 3px;
+    }
+
+#links {
+    float: right;
+}
+		#links a {
+            margin: 10px 0 0 3px;
+        }
+

@@ -1,99 +1,75 @@
-<DOCTYPE>
-<html>
-<head>
-    <title>SIRTI</title>
-</head>
-<body>
-    <h1>SISTEMA INTEGRAL DE RIESGO TECNOLOGICO</h1>
-    <hr>
-    <h2>
-    <table style="border: 1px solid black;width:100%">
-        <th style="border: 1px solid black"> CMDB </th>
-        <th style="border: 1px solid black"> Gestión de Cambios </th>
-        <th style="border: 1px solid black"> Gestión de Incidentes </th>
-        <th style="border: 1px solid black"> Gestión de Requerimientos </th>
-        <th style="border: 1px solid black"> Gestión de Riesgos </th>
-        <th style="border: 1px solid black"> Auditoria </th>
-        <th style="border: 1px solid black"> Gestión de Procesos </th>
-        <th style="border: 1px solid black"> Gestión de la Continuidad </th>
-    </table>
-    <hr>
-    <br>
-    <table id="tCMDB" style="border: 1px solid black;width:100%; border-spacing: 10px">
-        <tr>
-        <th><strong>CMDB</strong></th>
-        <td>Configuration Manager Data Base</td>
-        </tr>
-        <tr>
-        <th style="vertical-align: super"><strong>Descripción</strong></th>
-        <td>
-            <p>Permite administrar el inventario de activos de información de la Entidad, sus configuraciones y la documentación asociada.          Adicionalmente presenta las relaciones existentes entre cada uno de los activos. </p>
-        </td>
-        </tr>
-        <tr>
-        <th><strong>Secciones</strong></th>
-        <td>Servidores Activos-físicos Bases-de-Datos Sistemas-de-Información </td>
-        <td> </td>
-        </tr>
-    </table>
-    <br>
-    <br>
-    <table ID="tCambios" style="border: 1px solid black;width:100%; border-spacing: 10px">
-        <tr>
-        <th><strong>Control de Cambios</strong></th>
-        <td></td>
-        </tr>
-        <tr>
-        <th style="vertical-align: super"><strong>Descripción</strong></th>
-        <td>
-            <p>Módulo destinado a la gestión de cambios sobre los recursos tecnológicos definidos en la CMDB.</p>
-        </td>
-        </tr>
-        <tr>
-        <th><strong>Secciones</strong></th>
-        <td>Cambios Despliegues Administración </td>
-        <td> </td>
-        </tr>
-    </table>
-    <br>
-    <br>
-    <table ID="cIncidentes" style="border: 1px solid black;width:100%; border-spacing: 10px">
-        <tr>
-        <th><strong>Gestión de Incidentes</strong></th>
-        <td></td>
-        </tr>
-        <tr>
-        <th style="vertical-align: super"><strong>Descripción</strong></th>
-        <td>
-            <p>Módulo destinado a la gestión de incidentes relacionados con los recursos definidos en la CMDB.</p>
-        </td>
-        </tr>
-        <tr>
-        <th><strong>Secciones</strong></th>
-        <td>Incidentes Reportes Administración</td>
-        <td> </td>
-        </tr>
-    </table>
-    <br>
-    <br>
-    <table ID="tRequerimientos" style="border: 1px solid black;width:100%; border-spacing: 10px">
-        <tr>
-        <th><strong>Gestión de Requerimientos</strong></th>
-        <td></td>
-        </tr>
-        <tr>
-        <th style="vertical-align: super"><strong>Descripción</strong></th>
-        <td>
-            <p>Módulo destinado a la gestión de requerimientos referidos a los recursos tecnológicos definidos en la CMDB. </p>
-        </td>
-        </tr>
-        <tr>
-        <th><strong>Secciones</strong></th>
-        <td>Requerimientos Reportes Administración</td>
-        <td> </td>
-        </tr>
-    </table>
-    </h2>
-</body>
-</html>
-</DOCTYPE>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" name="SIRT" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen" />
+        <link rel="shortcut icon" type="image/x-icon"  href="images/logo_500x500.ico">
+		<title>SIRT</title>
+	</head>
+    <body>
+        <ul class="menu">
+            <li id="logo_menu"><img class="imagenLogo" src="images/sirti_logo_menu2.png" title="SIRT"></li>
+            <li><a class="active" href="#">CMDB</a>
+                <ul >
+                    <li class="i-menu-desplegable"><a href="#">Infraestructura lógica</a></li>
+                    <li class="i-menu-desplegable"><a href="#">Infraestructura física</a></li>
+                    <li class="i-menu-desplegable"><a href="#">Sistemas</a></li>
+                    <li class="i-menu-desplegable"><a href="#">Seguridad</a></li>
+                    <li class="i-menu-desplegable last-item"><a href="#">Documentación</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Incidentes</a></li>
+            <li><a href="#">Requerimientos</a></li>
+            <li><a href="#">Riesgos</a></li>
+            <li><a href="#">Continuidad</a></li>
+            <li><a href="#" >Administraci&oacute;n</a></li>
+        </ul>
+        <section id="home-cmdb" class="container">
+            <div class="box">
+                <h2>Últimos cambios finalizados</h2>
+                <br>
+                <div>
+                    <table>
+                        <th>Fecha</th>
+                        <th>Activo</th>
+                        <th>Usuario</th>
+                        <tr>
+                            <td>12/02/2020</td>
+                            <td>RA02</td>
+                            <td>jrammos</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="box">
+                <h2>Configuraciones expiradas</h2>
+                <br>
+            </div>
+        </section>
+        <section id="home-cmdb" class="container">
+            <div class="box">
+                <h2>Últimos cambios finalizados</h2>
+                <br>
+                <div>
+                    <table>
+                        <th>Fecha</th>
+                        <th>Activo</th>
+                        <th>Usuario</th>
+                        <tr>
+                            <td>12/02/2020</td>
+                            <td>RA02</td>
+                            <td>jrammos</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="box">
+                <h2>Configuraciones expiradas</h2>
+                <br>
+            </div>
+        </section>
+        <footer>
+            <p>Copyright &copy; 2010 &minus; SIRT &middot; Diseño: Gonzalo Genna SIRT S.A.</p>
+        </footer>
+    </body>
